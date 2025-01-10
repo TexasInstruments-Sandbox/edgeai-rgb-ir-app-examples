@@ -5,6 +5,7 @@ This repo holds several examples for RGB-Infrared camera usage on Edge AI SoC AM
 The main camera used in these applications is a 5 MP global shutter RGB-Ir sensor, OX05B1S from Omnivision.
 
 These applications are provided in accordance with an application note (link TBD). The applications include:
+* Visualization of RGB stream on a display with Gstreamer
 * Dual visualization of RGB and Infrared streams on the same display with Gstreamer
 * Dual visualization of RGB and Infrared streams on the same display with TIOVX (build to be 1:1 with gstreamer for comparing performance)
 * DMS+OMS+Video Telephony representative application built with Gstreamer. 
